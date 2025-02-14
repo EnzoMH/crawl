@@ -1,0 +1,149 @@
+{
+    "companyInformation": {
+      "koreanName": "뉴클 주식회사 (NEWKL Inc.)",
+      "registrationFields": [
+        "물품",
+        "용역"
+      ],
+      "businessRegistrationNumber": "101-86-48709",
+      "foundationDate": "2009/08/03",
+      "address": "(05854) 서울특별시 송파구 송파대로 201 B동 613호 (문정동, 송파테라타워2)",
+      "phoneNumber": "02-3288-9009",
+      "faxNumber": "02-2179-9014",
+      "corporateRegistrationNumber": "110111-4151190",
+      "corporateRegistrationDate": "2009/08/03"
+    },
+    "companyStatusInfo": {
+      "status": "정상업체",
+      "startDate": "",
+      "endDate": "",
+      "businessType": "",
+      "remark": "업체상태(부정당제재, 신용 등)가 정상입니다."
+    },
+    "representativeInfo": {
+      "name": "김병수",
+      "idNumber": "700720-1******",
+      "email": "ceo@newkl.net",
+      "mobilePhone": "010-9143-9911",
+      "isRepresentative": "Y",
+      "representativeType": {
+        "joint": false,
+        "separate": false
+      }
+    },
+    "bidRegisteredItems": [
+      {
+        "registrationDate": "2019/08/05",
+        "itemNumber": "111598001",
+        "itemName": "패키지소프트웨어개발및도입서비스",
+        "manufacture": "Y",
+        "productionCertificate": "직접생산증명서",
+        "productionCertificateValidity": {
+          "startDate": "2023/10/17",
+          "endDate": "2025/10/17"
+        },
+        "registrationValidity": {
+          "startDate": "2023/10/17",
+          "endDate": "2025/10/16"
+        },
+        "factory": ""
+      },
+      {
+        "registrationDate": "2017/03/14",
+        "itemNumber": "432325501",
+        "itemName": "교육용소프트웨어",
+        "manufacture": "N",
+        "productionCertificate": "",
+        "productionCertificateValidity": {
+          "startDate": "",
+          "endDate": ""
+        },
+        "registrationValidity": {
+          "startDate": "",
+          "endDate": ""
+        },
+        "factory": ""
+      },
+      {
+        "registrationDate": "2017/03/14",
+        "itemNumber": "432335501",
+        "itemName": "수업교교육용소프트웨어",
+        "manufacture": "N",
+        "productionCertificate": "",
+        "productionCertificateValidity": {
+          "startDate": "",
+          "endDate": ""
+        },
+        "registrationValidity": {
+          "startDate": "",
+          "endDate": ""
+        },
+        "factory": ""
+      },
+      {
+        "registrationDate": "2023/05/24",
+        "itemNumber": "",
+        "itemName": "교육훈련방법",
+        "manufacture": "N",
+        "productionCertificate": "",
+        "productionCertificateValidity": {
+          "startDate": "",
+          "endDate": ""
+        },
+        "registrationValidity": {
+          "startDate": "",
+          "endDate": ""
+        },
+        "factory": ""
+      },
+      {
+        "registrationDate": "2019/08/05",
+        "itemNumber": "8111599",
+        "itemName": "정보시스템개발서비스",
+        "manufacture": "Y",
+        "productionCertificate": "직접생산증명서",
+        "productionCertificateValidity": {
+          "startDate": "2023/10/17",
+          "endDate": "2025/10/17"
+        },
+        "registrationValidity": {
+          "startDate": "2023/10/17",
+          "endDate": "2025/10/16"
+        },
+        "factory": ""
+      },
+      {
+        "registrationDate": "2022/07/01",
+        "itemNumber": "8116189901",
+        "itemName": "인터넷지원개발서비스",
+        "manufacture": "Y",
+        "productionCertificate": "직접생산증명서",
+        "productionCertificateValidity": {
+          "startDate": "2023/10/17",
+          "endDate": "2025/10/17"
+        },
+        "registrationValidity": {
+          "startDate": "2023/10/17",
+          "endDate": "2025/10/16"
+        },
+        "factory": ""
+      },
+      {
+        "registrationDate": "2021/01/21",
+        "itemNumber": "821316301",
+        "itemName": "동영상제작서비스",
+        "manufacture": "Y",
+        "productionCertificate": "직접생산증명서",
+        "productionCertificateValidity": {
+          "startDate": "2024/03/21",
+          "endDate": "2026/03/20"
+        },
+        "registrationValidity": {
+          "startDate": "2024/03/21",
+          "endDate": "2026/03/20"
+        },
+        "factory": ""
+      }
+    ]
+  }
+  

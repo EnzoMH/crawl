@@ -1,0 +1,22 @@
+crawl/
+├── data # 크롤링 결과 저장 폴더
+│   ├── all_crawling_results_"YYYYMMDD_HHMMSS".json # 크롤링 결과 저장 파일
+│   └── all_crawling_results_"YYYYMMDD_HHMMSS".json # 크롤링 결과 저장 파일
+├── main.py - main페이지
+├── test.py - chrom Web Driver, Selenium을 이용한 크롤링 테스트 파일
+├── test2.py - 크롤링 테스트 파일, API로 공고명 상세페이지 이동 관련 test파일
+├── test3.py - 추후 병렬 크롤링을 위한 test파일
+├── utils # 
+│   ├── crawler_core.py  # 기존 test.py에서 이전된 핵심 로직
+│   └── constants.py     # 입찰공고 검색 키워드
+│   └── error_handler.py # 에러 관리 클래스
+│   └── http_client.py   # 클라이언트 관련 클래스
+├── .env # G2B_ID, G2B_PW 있는 환경변수파일
+├── data_processor.py # 크롤링 결과 처리 및 Excel 파일 생성 클래스
+├── newklinfo.json # RAG를 위해 저장된 회사정보 파일
+└── static/
+    ├── home.html - main.js / style.css와 연결된 홈페이지
+    ├── css/
+    │   └── style.css - home.html과 연결된 CSS
+    └── js/
+        └── main.js - FastAPI로 main.py와 연결
