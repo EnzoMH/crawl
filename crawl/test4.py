@@ -203,7 +203,7 @@ class BidCrawlerTest4:
         self.wait = None
         self.base_url = "https://www.g2b.go.kr"
         self.processed_keywords = set()
-        self.download_dir = "E:/smh/crawl/test_downloads"  # 다운로드 디렉토리
+        self.download_dir = "download_directory"  # 다운로드 디렉토리
         
     def setup_driver(self):
         """크롬 드라이버 설정"""
@@ -791,7 +791,7 @@ class BidCrawlerTest4:
     def save_progress(self):
         """진행 상황 저장"""
         try:
-            save_dir = "E:/smh/crawl/testdata"
+            save_dir = "downoloaded_test_data_path"
             os.makedirs(save_dir, exist_ok=True)
             
             # 데이터 정제
@@ -828,7 +828,7 @@ class BidCrawlerTest4:
                 cleaned_results = [validator.clean_bid_data(result) for result in self.all_results]
                 
                 # 저장 경로 및 파일명 설정
-                save_dir = "E:/smh/crawl/testdata"
+                save_dir = "downoloaded_test_data_path"
                 os.makedirs(save_dir, exist_ok=True)
                 timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
                 filename = os.path.join(save_dir, f"final_results_{timestamp}.json")
