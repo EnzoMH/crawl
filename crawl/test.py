@@ -250,7 +250,7 @@ class BidCrawlerTest:
         """진행 상황 저장"""
         try:
             # 저장 경로 설정
-            save_dir = "E:/smh/crawl/data"
+            save_dir = "your_data_path"
             os.makedirs(save_dir, exist_ok=True)
             
             progress_data = {
@@ -781,7 +781,7 @@ class BidCrawlerTest:
         """전체 크롤링 결과를 하나의 JSON 파일로 저장"""
         try:
             # 저장 경로 설정
-            save_dir = "E:/smh/crawl/data"
+            save_dir = "your_data_path"
             os.makedirs(save_dir, exist_ok=True)
             
             # 현재 시간으로 파일명 생성
