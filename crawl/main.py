@@ -53,8 +53,8 @@ async def lifespan(app: FastAPI):
 app = FastAPI(lifespan=lifespan)
 
 # 정적 파일 마운트
-app.mount("/static", StaticFiles(directory="E:/smh/crawl/static"), name="static")
-templates = Jinja2Templates(directory="E:/smh/crawl/static")
+app.mount("/static", StaticFiles(directory="your_static_file_path"), name="static")
+templates = Jinja2Templates(directory="your_static_file_path")
 
 # CORS 설정
 app.add_middleware(
@@ -229,7 +229,7 @@ async def stop_crawling():
 
 @app.get("/api/download-excel/{filename}")
 async def download_excel(filename: str):
-    file_path = f"E:/smh/crawl/exports/{filename}"
+    file_path = f"file_path_downloaded_documents"
     if os.path.exists(file_path):
         return FileResponse(
             file_path,
@@ -330,7 +330,7 @@ async def search(params: SearchModel):
 @app.get("/api/crawl-results/")
 async def get_crawl_results():
     try:
-        data_dir = "E:/smh/crawl/data"
+        data_dir = "your_data_path"
         
         # 모든 크롤링 결과 파일 찾기
         files = glob.glob(os.path.join(data_dir, "all_crawling_results_*.json"))
